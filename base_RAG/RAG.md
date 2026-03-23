@@ -14,3 +14,11 @@ pip install langchain-chroma
 pip install pypdf unstructured
 
 ```
+
+### 순서
+1. 문서 로딩 (Document Loaders)
+2. 텍스트 분할 (Text Splitters)
+3. 임베딩 (Embeddings)
+4. 벡터 DB 저장 ( Chroma DB, FAISS)
+5. 검색 (similarity_search)
+6. LLM 답변 

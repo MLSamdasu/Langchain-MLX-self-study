@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI
 
 # 로컬 MLX 서버에 연결
+# 다른 터미널에서 mlx_lm.server --model mlx-community/Qwen3.5-9B-4bit --port 8080 --host 0.0.0.0 실행.
 llm = ChatOpenAI(
     base_url="http://localhost:8080/v1",
     api_key="not-need",  # 로컬이라 불필요함

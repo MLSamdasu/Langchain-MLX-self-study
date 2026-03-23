@@ -1,4 +1,6 @@
 """
+pip install langchain-openai
+
 from openai import OpenAI          ← 전화기 (OpenAI 공식)
   → 기본 전화번호: api.openai.com  ← GPT한테 전화 걸림
 
