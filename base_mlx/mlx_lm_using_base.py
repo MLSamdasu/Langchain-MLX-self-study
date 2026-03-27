@@ -1,4 +1,4 @@
-from mlx_lm import generate,load
+from mlx_lm import generate, load
 
 model, tokenizer = load("mlx-community/Qwen3.5-9B-4bit")
 
